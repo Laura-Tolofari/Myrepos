@@ -9,7 +9,9 @@ export default function makeApi(req,res){
         if(firstName==null){
             res.status(203).json({msg:'Please enter firstname'})
         }
-        res.status(201).json({msg:'user stored successfully'})
+        res.status(201).json({msg:'ur stored successfully'})
         //store data in data
     }
 }
+//mongodb+srv://erelaura1811:scorpio@1811@cluster0.pniww6d.mongodb.net/
+//mongodb+srv://erelaura1811:<password>@cluster0.pniww6d.mongodb.net/
